@@ -1,5 +1,6 @@
 import img from "../assets/img/encabezado/pleca-gob.svg";
 import imgGob from "../assets/img/encabezado/logo-gob.svg";
+import "../assets/css/footer.css"
 
 const Footer = () => {
   const styles = {
@@ -10,7 +11,7 @@ const Footer = () => {
   };
   return (
     <footer>
-      <div className="row g-0 gap-4 p-5" style={styles.backgroundColorDiv}>
+      <div className="footer_zul row g-0 gap-4 p-5" style={styles.backgroundColorDiv}>
         <div className="col-sm text-white">
           <h5>Dirección:</h5>
           <p>

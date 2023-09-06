@@ -2,7 +2,7 @@ import image from "../assets/img/encabezado/Screenshot_2020-01-24_TecNM_Tecnoló
 const Encabezado = () => {
   return (
     <div class="Encabezado">
-      <img src={image} alt="Encabezado" />
+      <img src={image} alt="Encabezado" style={{width:"100%"}}></img>
     </div>
   );
 };

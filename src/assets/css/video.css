@@ -1,0 +1,15 @@
+.videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+
+.videoframe iframe{
+    width: 25rem;
+    height: 13rem;
+    margin-top: 2rem;
+}
