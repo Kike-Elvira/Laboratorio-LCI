@@ -8,7 +8,7 @@ const Proyectos = () => {
     div: { textaling: "center" },
   };
   return (
-    <section className="proyectos lightSection bg-light p-2">
+    <section className="proyectos lightSection bg-light p-2" style={{maxWidth:"84.2rem"}}>
       <div className="row justify-content-center">
         <div className="col-lg-4 col text-center p-3">
           <div className="area shadow-sm p-4">

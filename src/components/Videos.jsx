@@ -3,14 +3,14 @@ import "../assets/css/video.css";
 const Videos = () => {
   return (
     <section className="lightSection bg-light">
-      <div className="row">
-        <div className="col-12">
+     
+        <div className="title-video">
           <h2 className="sectionTitle text-center font-bold m-3">
             Videos de LCI
           </h2>
           <div className="sectionSeparator"></div>
         </div>
-      </div>
+      
       <div className="videos">
         
           <div className="videoframe">
