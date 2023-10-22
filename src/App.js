@@ -7,6 +7,7 @@ import Logotipos from "./components/Logotipos";
 import Presentacion from "./components/Presentacion";
 import Proyectos from "./components/Proyectos";
 import Videos from "./components/Videos";
+import ClusterCard from "./components/card/ClusterCard";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Evolucion_Laboratorio></Evolucion_Laboratorio>
       <Proyectos></Proyectos>
       <Videos></Videos>
+      <ClusterCard></ClusterCard>
       <Footer></Footer>
     </div>
   );

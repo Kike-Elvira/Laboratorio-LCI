@@ -1,0 +1,38 @@
+.card-hover {
+  /* Estilo original de la tarjeta */
+  background-color: #fff; /* Color de fondo original (por ejemplo, blanco) */
+  /* Otras propiedades de estilo de la tarjeta */
+
+  /* Estilo cuando el cursor está sobre la tarjeta */
+  transition: background-color 0.3s, transform 0.3s ease; /* Agregar una transición suave para ambas propiedades */
+
+}
+
+
+.color_buton {
+    background-color: #312e81; /* Cambiar el fondo a azul cuando se pasa el cursor */
+    color: #fff;
+    border-radius: 2rem;
+    transition: background-color 0.3s; /* Agregar una transición suave */
+}
+
+.card-hover:hover {
+  background-color: #312e81; /* Cambiar el fondo a azul cuando se pasa el cursor */
+  color: #fff;
+  transform: scale(1.05);
+}
+
+
+.card-hover:hover .color_buton {
+  background-color: #fff;
+  color: black;
+}
+
+.card_image{
+    width: 100%;
+    height: 15rem;
+}
+
+.card_size{
+    width: 30rem;
+}

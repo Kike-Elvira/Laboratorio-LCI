@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "../assets/css/style.css";
-import imgKinect from "../assets/img/posters/Poster_Proy_Kinect.png"
-import imgParticulas from "../assets/img/posters/Poster_Proy_Particulas.png"
+import imgKinect from "../assets/img/posters/Poster_Proy_Kinect.jpg"
+import imgParticulas from "../assets/img/posters/Poster_Proy_Particulas.jpg"
 const Proyectos = () => {
   const styles = {
     parrafo: { textaling: "justify" },
