@@ -1,18 +1,26 @@
 .videos{
 
     width: 100%;
-    
+    box-sizing: border-box;
 }
 
 
 .videoframe iframe{
     width: 80%;
     height: 16rem;
-  
+    padding: 0;
+}
+
+.videoframe{
+    width: 100%;
 }
 
 .title-video{
 
     padding: 0;
     padding-top: 3rem;
+}
+
+.col-md-4{
+    padding: 0;
 }
