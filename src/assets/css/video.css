@@ -1,6 +1,4 @@
 .videos{
-
-    width: 100%;
     box-sizing: border-box;
 }
 
@@ -23,4 +21,9 @@
 
 .col-md-4{
     padding: 0;
+   
+}
+
+.row{
+    margin: 0;
 }
